@@ -1,0 +1,142 @@
+<html>
+
+<head>
+    <title>Joyeux Noël Walti</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="snowstorm.js"></script>
+    <link rel="icon" type="image/x-icon" href="icons8-christmas-ball-16.png">
+</head>
+
+<body>
+    <audio id="myAudio" controls hidden>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+    <div id="header">
+        <button id="addMusic" onclick="musicPlay();">Mets la musique c'est mieux</button>
+    </div>
+    <div class="pa-carousel-widget" style="width:100%; height:100%; display:none;"
+        data-link="https://photos.google.com/share/AF1QipPtmPZERxgWPup2rM-cmoydPDtjKoMCTeYWPqm2odVmlFblMHf-hFqE6I5zyOah9Q?key=OHN3UC1JSzdzMjdoenkwcFFVTUtZMGttRnRKbm9n"
+        data-autorepeat="true" data-delay="1" data-title="Joyeux Noël Walti" data-autoplay="true"
+        data-description="55 new items added to shared album">
+        <object
+            data="https://lh3.googleusercontent.com/LRFDEkeRXEWOiKcuRxiBjmb_ajH0wI7oR87aWpm-0dTT1p1tLuviyWPuj8Yzv6nMEPQAaC4U0W-3djC_kEtfb7bz9q_6dHCOfoBpvSipUbJnT3CNwTG40_aB-d1UuvYEB5gLt_2poo4=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/b3JTTk_CMOSDZatR_fzqTfpyoQZU1TccycoTY8gacbNuv4e7N8_TfKBNTwjke-f57soG3U4aY0vICN4NxWtJj8A60bKtnauh3--PSAAKoWz1EmWFJVmX0xO3cy0O-xvcnQNBKK1TaCM=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/IDEdkaO_f6ePfcaw5XSKhKqO6tuiqUSzb1aV3xOLjOgjVIjcbPutgdlmDGxqaYUxCj4eyYtkWPZ-j_97d_gqNLByk2dD63ZieOtHab-vgXhHjtOdV82Ps9TMPTJv9QQArsDT14Zdae8=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/bhNko5Xz_Pewf2wA0R_L_0RxnMPJElGivekzit4k53fM92LsYGbh_IcyS7a5725O-tByif7sFcm0WC_gW5Nl12kJJVqVufRrP0lrJTTBtSyzQIYcg7HQsGipVM-H3mfjNd6H3HR0A-E=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/nB08UfStk41VODcSLWO6z8hA-2mE2665v1bMB3quIbcT16Mal0GCYyGuEpcaJ-gPFfZEL3U9AZG72NqTDX2p-YG18rtfsipIIwTv3F1sgEXmaR65RVsuoeRPPZ_JqYz0_8-H6VInxFE=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/gbLUVvKpFVNbCsUgvrq34UpRFnCjeV5mfQ-O-rlJrbZzIep-ePFI6kKLRifXtaEGU1vGyvRs0x3kBLeAv5V0Cak9XFougTumiFiPWeQqOs5aoa0s9ZdfSVyN0ehlp3L0jeZCFLXvMrw=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/UlKc1ijuUGf9Xhn1lB_XnmMxGVX4Q-ICqm2IE7QgccBfJvP12cTqD-FQ3NeoVvk0Tmpr5x7USWYVnX3y8ftfvGB3AmmDEymbI2luwdyAkLDOO7_L8vOGgKrb3eTxahg010gQgMLedbk=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/SlhPJKg38Q1bMXZAynJ7h17BLakIUdkBxVhYpvsea1FTznIqH0RJ3h8gY1AZgnBN29lg6NLby0w-We3Hm_E96AE3J3MAlqfMaZDYYrJ0TTgYxNuWkxzOzuT3aLB9URAF-KyWlEMpkfI=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/7EfOMaYdqx8znQQe8_WLNdHBBf4yD53PbWRgIKJR3sp7y1LfcH_kOC9c1sESGSPK-ym11VoDSclXUyluEjqR8J8xICk9LS0EDH81gXBwCyXx9r9heS4uYtAQDo7nmfpwN_8zmkwSaTA=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/GGLGDg8LoYjxHZNOKGcC7IPtd2VoTVmf4v7-NOWPhyz6P7fIDTJItesUWlsGeEEDRXphCkdCH8vfTir-DJJ6ms1Hh5vLBsQLETH33cM6gcXnv8RWZvmf9qSKfKoNbKXfKoew6o4r9FM=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/kv2xBwC7JwW1Bx1fqvSUEigv76enneHqn34uJb5uqP8jQJZ6Adhg1lOFhvHlZzQ7bXn1iqp83uHWCnN6h94V7YEdsP7bG5sG4MxBMS7Lz9Qva7w15F_3f1Jmw1uiqiYD3obvj0yvH5o=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/ka7RcQIo6SJYhOWdWh42LKQKakaPp4N8ohtYau-P_zeyE0U_UB_fh82jggM6TWOWB3kMBWMjoXhCpX3QHqqeqm8YY5V2wOQaGIKPAoORaOcqyf0hdT4hURVI6wtIDtLmv-5N50ZrWRQ=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/UUbjBEUMuIigXC7Gj3XHMD-_fubx0H12ZJvaMr7K2h8FHQGIR_4WUO48x_IdDC6gmSqgACux_G2Ziqy8mhJ_WfJwi9jR7gW4jZG3DE1e62vDSVFE_DPqxPL3qUFOB9oqzPXrx5bSRsI=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/bJUxCVVaxX1KdXtduzXT_-iDCFfy70z7IETSN8gR58bL2-GUc2nlSUuqhj0H66rWWbUvr0Hnqsp-W5LChkKqUHdquyas6mPdcK5TQStR083rliJFYhdC0v0dSxMbEr8Rch9CF2Z0Tyg=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/2snUz6r9Ygw5lHluDfi1P7-msHzgMMX3xtgKOgZDRyGkA1vn89YcmnKXQ7LHx0KNmDUYJa7XAFixGBpv7OmKNU2UPDIUwxEDNVn5tK-C-zqPjpmmKN7h9OZhvHq89zc0y9eBf5V6v04=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/XTzYLX-ap6EUx6EnTRWWfKuezDY8549cIcNfZvdG6viG7Uvm2XIBBC5rECj6XkJh3bGcpCtQ8Y36nWK7RKx3k4e90IF85N3TJ3uPvzdl-Fx-l0OI4L_mEEmqudRFavmnPqzrcEAhERU=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/vo4eI-n5DqYzyHtvtMo0Vo9ST6G0HxftlOr0qyvK4QyNMnxfto4PC5YJ7n6Ep3CAuvZnU9QbPbznI0oKj-EzPJfgHUZR3ZGtW7TO5-iNKC-A06_r1AxPT-5-qkeg4NqmklVMQ2qRVLE=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/KIviruQ24D7RTgFkFnISAXbNMeMffLP-ZFO8Wby2zHIMVM-1XPm4nRd-s3JYBCo3QvPlkcJmduK5vvdxWPAOkc7SuMgQeXZpZEAHd_N7KRYdGXgPAdI85BgjeIO7eGnDW-d1JAd4GYI=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/se1teGikFq4O439_m92nwmoArd3KTkc1OeCGaP7wqeK1DSk8WP1EmHZaGtf0uSqkPZxunTCPZwhZ7fPvzbZP7bsP_ci46Eiw8UBxBv6l02fTKZFkXfL7pxPPE2WcL-ZP_ev3Ycusszw=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/oXsjGiMWzmTp9ENKlsuCwMJ_l2J-6tAjCwfh2CVvftIKLQUz1UEkFz4iXLQ_760J7tp0BgTSA04E26Fc_5R3yozJlXMWAE3xN2RNeBG2rlioO5egv0IKYlFCtZtIWioWGn6hiEd7l5U=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/maACrnsfmwJ4CPg0ZEakA0hVEVPL0WedQjhvskFcOx3V9RyihIOF0tF8jBwh-zspNxC3z01YmtGaly803TAmIL1umoQ56HuB5ikBa3seyh2glZiuY1czkKQ0dAsi14V1lDO5G4fY-S8=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/7DV65PyS1wfhqSkKJF5FfXVF0nGuVNqwapzmvgjLfEc66-_aC8vXSBkpQSUDfrQf0Zwd6KnZcbsY9y2sDyQTPVUsUzjaN3lU-XAw7aU5VN6_CAsH5hJsC64YcrYVAMkVxtVyOMDZ1EA=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/fBUCwE6ta4NTEMjmE8B00wMbNneVA82cfm1Vt9BjLNM22J907ER_FuwaZSRTB_XdPWPVUpbA8MOiPqClbvgdVqmExOrgUWgTrTrLlDxJm5k2IWjP5Ix5DfTBvsA5Pc9LxsMJ5RIJF1s=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/dZ9kuhajjTYh1MrVq6GqdoBWKY60Nctlq0dyxrjFTJRpIqOOVRa0bnaihdK_dSNhBakiSVsIR8GUOYsWymGLQZAeBbjJA4Ubo25UEfMrzhf5nSpENW0ZT3UMxqBwKLwoYWbGVsu7tXQ=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/w_xH2kiEhVCD3kSYWKJYaUnAX69vDtABE9uauM5DxUVn26Prmum9Z__aIUYK-uaPPJDkNv8Pnar4WRlxCVIcfUc4_NCyCKPF-a4TlwIm5OnWyqFsj2DymlM8ftB6b5BBb8f4mV9KIvg=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/oTvDljAokMxM6HoFPvHKok5GkcGR_hVfUJyxHLU-_rlDIEItRAN7wBv9hPyJYBPVh3iG3YJL70mSXiSViVC9upjadNancjXl1fCfPhHpiTIFnh3wzjc8nsMCcFn74yndpYcS7Is6jwY=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/FDtYKiaPmd99SlWzfqkvCyZlFC5eLkOltElEMWG5vNuscFLPpZVag8mXEwSH2PwmmtHBh0ByWEOezAyrh9io1k0vY5uaAlBAOP5OpbOAxb_Gau_BiYmAciee2l6m_9GWMYVWO1ON3-8=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/35bOHCYAoWHSuthirDaYYj9hpuURpdqzpAJVmgzDrrIu1-wKqb4E1GWxpB77F3ETbwn5KpGM5g8d0rtW581Q6wTDm0azLE6MHhfinHxmUJcgUZYvPo_YEqxVZPK4y3-myAQ6BpkZs_M=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/OGks3QDENmH1LtqTDWemUKilpZ5VlYt-gql2W0037a6zPb1PCgw5TYW40c4pJ28Dn1DMCUhE5U2MeTvToJwE_OX_YfLG-9O7pNk7mAPwjaaTADRKPtjF4xwtzsXJ26VHKIlakFwGDtw=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/ZSsVuiQK_x4B4dBkhNJh2il5g9SCqFPbQKZBtcad_WJyjSAJpQVZHu2vzWZmNoZ1aHD6eQWxxII_ySKYj8FzpbbEIan-PwwiaPXEVDwS_sUmxxhLSGrTmuYfxCtFWpOv-8h8gzmWe2g=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/EjB98Uflvs9TI6H9PyPg0GtosQbD-RrZuzL7226FihGWQRg-c-ExPHOmIEm1ybfGutQhmurIVCBA_gkvS6e5XcidHRXvewTcbF1RQcE2GfhxOiHB1zVu2VDSs5RTmEVNPtmTiR4Nt5o=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/vkw53ZqLf5rYRFZXYg9eJKgqPwFdTS799-4-J88ZUPFEEylGAX0cl2veRx67i3WcmgzE5r4eGQt3WOjY03PicQPXaRSlYh5h2GnK53WH_3n0lbkm0j_KsDOoctwy769k4GksIx2lxqA=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/xlwSH2ZmaDG-Y33tMKSoVJabQbnJgWvdc69HIJVdLh3a9iNfFVF8lVvyG5uFCi-pkpwPdKeh70UHcYsORpqJvDQT7UfplgbSSm9lEqGoD8fTVGPZ6bRSQW-Bm6USIoFjNWxv9siz0OY=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/OBc9R8l_Ml4jqnvNs4uK7yDuA16lKrFvDvuZ-buj09b3eY-BmVpiUXj_ZeR0qBP4jNEn1-1oUbYSJM2ggo2JKFV2PyvXd-Q64aTFood3gcT5MrV1TTgAlzf8vaC2pFhIm6t4zNxOh6s=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/e4Hd0CLP0iVJ-YTRkeTbNbqqI7dDsleQksN4eSUDSjC2HgsE4vTulVBclnV3AlnaWm_bkHn1dGrfbqbrWmwkVQbVyvAnpSyLZjjl84wXXrh89ozZ5z1CB1EUH39NHdErn9Iq8E3L62Y=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/jGLEmEPe4kWTAAz6LVsS92mzD5zsH9rKu-geZVJbpeKdS39LjsuT4Ki8FyQvoQNtMgSFlwDTh9SbvOG9NZpe8A7g5PnkJiynySFWJJkD_N4TIk5UP3DnN2OQPqAIVc5WnVoZmbchX7Q=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/gQYvtNJWn1Y0xht1C1659hThy1RWspXKDcOQgxNeKxEbijlwedsIIvtmziWcBo9YCgd-WtLJEcov_D0cCy0IzLI35QirPiKzZU5SqatU2rWV6Bbr7-xtVrz78XdPGpSO2YT1V6D0z94=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/RwLxOzJeqJn6JK2hSH7HsMagcJ9LuyOLlk-hSkpuwueI6i_CbqgqCh4580XCjOgRGaUp6k08hMRan5pnom0c2Xj3VHNIiyz2U3T8AhYczeaeRHhAU_NKCE1yeGq2UZ8BbnIRMwzYSQ=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/z3YXLc22Ace2oMG42HtYXBQ1O_rexfA6CkgIm7FvB9nhuMclmAYHMLEGyhymozlri83XFfWLWnzuP_wwJIsGuglfsoE8tGzQuD1tOAzSdp-kdz4slBC_DJmJt7_FdxXEvM9vTcZdCw=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/3-N_4aSNznawHA8cNGvLc1rhZB3WX97w-GmfKNPGH8fVoX_fAGIabCKK_5RK7NnePO4yBrGDf6APWVH-Y3qoEgLZJz4qV46NDw_ehASAChbU71evSmUpwE2J4XJRelJap9GbYduLCw=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/yS4zjWm4n3CKoJzjT12LiHluHiQTyboctR02qgwvwd7CCKfwRPgdzbrjZ3-cmxldgJAiCgMAsnc6awiCK_qTmWGA_jrr2zYVljGo2JUALzWvUk9kffB1Z0oMHjHRkGMmsMmvpXJNsQ=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/B4cZpAqCGEVi0UE-4B9UNgb_DV_J6Bi0XPV_EDJaHN81F2-h1080liVpnqwQz2IjnEFaH7EJBiAr7gDOo5MNzZp456cMkFKmk0p0QP10xkNXYKq6Ul69n_VN6iUmo7pbhNgtB-5XaNrSQ=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/x0jDt7y5YLBHNRW2ocYIEbfyaqj1EC0He5YdUU5xueQdUBaXWdpzzdV63Uf4qat0SdKjCJyYFDEVDkEUicQgOeht6Oda-m70Lmc5mgtKBstO13LLnP1YZvbFjOiwVDx3ivsWh7h2yg=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/m-dKt_dz6iB5TM0wM4d827rr8ncttNAO5ZDo9rahXAgPYbQ6uQaSAaraDCgQODJlXboXavC3_kgbVGVO_RV7Ja7-W51JuadXve_J53x7cVm10kpIZGs_NcUbCVCskgOW0ev1lISwpQ=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/awBZDdEYFlwnVpU7YKr2X7zqutXXxb660nutHASvktcE2U8EpKV98eBaLdE6DFoLHiL0xH0jBV78ywamkkhAK3WVyZ35Cs0tFgNW9CdDrrrG-B6DK-ZWL4d7JqKuu1flRRV8A9Mvxw=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/AmbWKO8rTWTcLyygqByjlLAdXefmuPdbYYYjLZNNnrqbYtCTiItXTQiOTu_rgUPM9DY9PcvIVx6xZJyu51yRQZOCftMKj3S7SheviWUWk_Z7wyodXAt7bl6r87qMW7EzYkcbMbr3LA=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/tMp7iAWP5wTx9sls2-QXbqqzv_vfwCrewbQKxNAXi_W3nIjmlXNyyHu39jndyGR4moMAM_hVruSFru-n7tYUbjLnI6zBnYTfk3QmtFUk9IpaxQt_2XFdiRaMGkWjbVRvNPlfcIZ6jw=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/AoGA8kor_ba8Ynfb-W_TonbN8mKHCX8JjKEKR12wS1wKc0-Q_7-16q3pu77SLdqHBSFBCoivTVz5vggzisxf4_vDc_gJUJmxWsInjQ9HWkw-B4ulg-Ko_7kZIzeRvaRPorgkLpg4eA=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/MZGE1ZHQzWNB6BKKgKMaE4RIYYBVerb38EK8uAlFPhWu0UxyaBSt-I-Q4CSpRDyrLzmYwfGJTL56TuVXP0_Cy9ErjjRNJTbvm8BP91T1OaCGLoJfwZsLVMpcq7rIFQuEsu-oe6XX4Q=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/qXspdOnUPZyIN_BcZ12pgQxi-YjoHlhhZncUmWjpkbdvX8U86nv9Ra7OmTv4QPf5tHnsrd_dpBfJbxOBfHL0oWyc-rLcbUkMBAcaDHAjrPdOiVqPuPubKigmkvfq2-zGX4vusmffKg=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/czN7EktGuj5MJ7d3QFrOG7R2Ij5UinFcRlXBzCOXx42iSlfdkEoJqY1R3BL4NzA6x3H35o1tw0a3o5NtmLa-rgNZM3BYkFUPy1OxJk3fdJubgE_Hx6H91FJfE7Uf9O4M0xRS7FX-ng=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/O0H0-iMCRSD3LGrFw9qUTtWHcGrcHgfvLkK0ALMiMWaNqCbVp16Z09hO0QyttwHsNEGQl28rCp5CKW0Uq-NCvSjdsJ57hMIisbq2df_lpnothkGTUsT1tVOHlYSKVSsgCu6oEiJItQ=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/-Xfr8O9SS-p-OeZKi5omRaOxanmKMjo4zeSwmNoSq5pch98UNNCjyt9qJHUKppF66X596WniGgSE7P_edUWK8xsVj_c9Ma9RK4WnAh0tPwZ3hBP0qYr8OPr5jLN6nx8VWgk6sNpK7A=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/Q2t_NG_ZUh31kAxHrySRM5rpbdxqhEtJBVIGk06tWrz27YNe97h1gSwKP0tO6l72rn9MPNLtKBtc-ll4j7UXQvKz5jHKTDRVPcT9gCJRuWEQFyRbta4-nTmeKOSGmr2lsOUqgLzGYQ=w1920-h1080"></object>
+        <object
+            data="https://lh3.googleusercontent.com/84k9ZIPDiJvxIeQrZoGyPZl0SMYDj5sWTIKDhZ_IBVJG8Tk3Kx_mlY4cKjbrqE1-VS5qaafgA0qmjEWN59AchMHYClLHdE3sznOT3NrSscAvf1oF1Bx7ZynkGd3aTxpbR8Ru_nt_Yg=w1920-h1080"></object>
+    </div>
+    <script>
+        function musicPlay() {
+            document.getElementById('myAudio').play();
+            document.removeEventListener('click', musicPlay);
+        }
+    </script>
+</body>
+
+</html>
